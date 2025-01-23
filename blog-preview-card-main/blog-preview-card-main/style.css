@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: Figtree;
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+* {
+    font-family: Figtree;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+}
+.image-container {
+    width: 300px;
+    margin: 0 auto;
+
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+#card-container {
+    width: 350px;
+    height: 450px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 5px 5px;
+
+}
+.label-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22px;
+
+}
+.label-container span:first-child {
+    background-color: hsl(47, 88%, 63%);
+    width: 60px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+.label-container span:nth-child(2) {
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+.info-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22px;
+    font-size: 16px;
+}
+.info-container p {
+    margin: 0;
+}
+.info-container h4 a {
+    color: black;
+    text-decoration: none;
+}
+.info-container h4 a:hover {
+    color: hsl(47, 88%, 63%);
+
+}
+
+.footer-container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 22px;
+}
+.avatar-img-container {
+    width: 30px;
+}
+.footer-container span {
+    padding-left: 10px;
+    font-size: small;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

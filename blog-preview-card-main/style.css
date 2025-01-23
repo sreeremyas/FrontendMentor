@@ -16,6 +16,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: hsl(47, 88%, 63%);
+    overflow:hidden;
 }
 .image-container{
     width: 300px;
